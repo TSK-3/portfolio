@@ -1,14 +1,17 @@
 h1{
-    text-align: center;
-    color:white;
+    text-align: left;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    
-
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 18px;
+    letter-spacing: 1px;
 }
 
 body{
     background-color: #0d2040;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 li{
@@ -32,8 +35,6 @@ nav{
 a{
     text-decoration: none;
     color:azure;
-    font-family: Arial, sans-serif;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .header-row {
@@ -70,7 +71,6 @@ button{
     border-radius: 0;
     box-shadow: none;
     font-size: 1rem;
-    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s;
@@ -90,6 +90,13 @@ button:hover {
     color: #0d2040;
     border-color: #3a5ba0;
     box-shadow: 0 0 16px 2px #3a5ba0, 0 8px 24px rgba(13,32,64,0.15);
+}
+
+.navbar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .nav_buttons {
