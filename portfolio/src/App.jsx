@@ -8,7 +8,7 @@ function App() {
         <h1>M</h1>
         <nav>
           <ul className='nav_buttons'>
-            <li><button><a href="#about">About</a></button></li>
+            <li><button><a href="#about">About</a></button></li> 
             <li><button><a href="#projects">Projects</a></button></li>
             <li>
               <button className="github-btn" aria-label="GitHub">
